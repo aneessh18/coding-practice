@@ -1,5 +1,6 @@
 package aneesh18.io.flipmed.service;
 
+import aneesh18.io.flipmed.api.RegistrationService;
 import aneesh18.io.flipmed.model.Appointment;
 import aneesh18.io.flipmed.model.AppointmentStatus;
 import aneesh18.io.flipmed.model.Doctor;
@@ -13,7 +14,7 @@ import java.time.temporal.ChronoUnit;
 import java.util.List;
 import java.util.UUID;
 
-public class SimpleRegistrationService implements RegistrationService{
+public class SimpleRegistrationService implements RegistrationService {
 
     private final DoctorRepository doctorRepository;
     private final PatientRepository patientRepository;

@@ -1,8 +1,8 @@
 package aneesh18.io.flipmed.service;
 
+import aneesh18.io.flipmed.api.RankingStrategyService;
 import aneesh18.io.flipmed.model.Appointment;
 
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 

@@ -1,5 +1,7 @@
 package aneesh18.io.flipmed.service;
 
+import aneesh18.io.flipmed.api.BookingService;
+import aneesh18.io.flipmed.api.RankingStrategyService;
 import aneesh18.io.flipmed.model.Appointment;
 import aneesh18.io.flipmed.model.AppointmentStatus;
 import aneesh18.io.flipmed.model.Specialisation;
@@ -12,7 +14,7 @@ import java.util.List;
 import java.util.Queue;
 
 // best logging strategy is to log all the side effects of the function. to know the
-public class FlipMedBookingService implements BookingService{
+public class FlipMedBookingService implements BookingService {
     private final AppointmentRepository appointmentRepository;
     private final DoctorRepository doctorRepository;
     private final RankingStrategyService rankingStrategyService;

@@ -1,6 +1,9 @@
 package aneesh18.io.flipmed;
 
 
+import aneesh18.io.flipmed.api.BookingService;
+import aneesh18.io.flipmed.api.RankingStrategyService;
+import aneesh18.io.flipmed.api.RegistrationService;
 import aneesh18.io.flipmed.model.Doctor;
 import aneesh18.io.flipmed.model.Patient;
 import aneesh18.io.flipmed.model.Specialisation;

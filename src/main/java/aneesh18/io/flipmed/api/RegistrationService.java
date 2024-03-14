@@ -1,4 +1,4 @@
-package aneesh18.io.flipmed.service;
+package aneesh18.io.flipmed.api;
 
 import aneesh18.io.flipmed.model.Appointment;
 import aneesh18.io.flipmed.model.Doctor;
